@@ -22,13 +22,14 @@ const FAQ = ({
   const FAQS = ALL_FAQS[`FAQS_${langName.toUpperCase()}`];
 
   return (
+
     <section
       id={id}
-      className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12"
+      className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12 "
     >
-      <div className="flex flex-col text-center gap-4">
+      <div className="flex flex-col text-center gap-4 ">
         <h2 className="text-center text-white">
-          <RoughNotation type="highlight" show={true} color="#2563EB">
+          <RoughNotation type="highlight" show={true} color="#31304D">
             {locale.title}
           </RoughNotation>
         </h2>
@@ -39,7 +40,7 @@ const FAQ = ({
         keepContentMounted
         className="gap-3"
         itemClasses={{
-          base: "px-6 !bg-default-100 !shadow-none hover:!bg-default-200/50",
+          base: "px-6 !bg-[#B4D4FF] !shadow-none  dark:!bg-default-100 !shadow-none ",
           title: "font-medium",
           trigger: "py-6",
           content: "pt-0 pb-6 text-base text-default-500",

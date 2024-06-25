@@ -13,7 +13,7 @@ const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
     >
       <div className="flex flex-col text-center max-w-xl gap-4">
         <h2 className="text-center text-white">
-          <RoughNotation type="highlight" show={true} color="#2563EB">
+          <RoughNotation type="highlight" show={true} color="#31304D">
             {locale.title}
           </RoughNotation>
         </h2>

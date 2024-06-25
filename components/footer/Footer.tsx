@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="mt-16 space-y-2 pt-6 pb-4 flex flex-col items-center bg-black text-sm text-gray-400 border-t" >
+      <div className="mt-16 space-y-2 pt-6 pb-4 flex flex-col items-center bg-[#86B6F6] dark:bg-[#31304D] text-sm text-gray-400 border-t" >
         <FooterLinks />
         <FooterProducts />
         <LangLinks />
