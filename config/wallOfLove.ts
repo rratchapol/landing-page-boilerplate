@@ -6,8 +6,9 @@ export const WALL_OF_LOVE = [
       username: "weijunext",
       image: "/images/users/weijunext.jpeg",
     },
-    content:
-      "As a front-end developer, I'm highly satisfied with this landing page template. Editing text and images was very intuitive, and I encountered no technical hurdles throughout the process. The template's responsive design is excellent as well; whether on mobile or desktop, the page layout adapts perfectly. I managed to launch my own product's landing page in just half a day, significantly boosting my efficiency.",
+    content: {
+      image: "/images/users/weijunext.jpeg",
+    }
   },
   {
     user: {

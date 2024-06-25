@@ -2,62 +2,25 @@ export const FAQS_EN = [
   {
     title: "What is a landing page?",
     content:
-      "A landing page is a standalone web page created specifically for a marketing or advertising campaign. It's where a visitor 'lands' after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web. Unlike web pages, which typically have many goals and encourage exploration, landing pages are designed with a single focus or goal, known as a call to action (CTA).",
+      "A landing page is a web page that Internet users are taken to after clicking on a link or advertisement, which can come from various sources such as online advertisements, emails, or search engine results. The main function of a landing page is to persuade or encourage visitors to take some action. It is usually designed to be clear and to the point, unlike a typical website page that contains a lot of information.",
   },
   {
-    title: "How can I create a landing page?",
+    title: "What is a ERP?",
     content:
-      "Creating a landing page can be done in several steps: 1) Choose a landing page template that fits your campaign's needs or start from scratch. 2) Identify your landing page's objective and CTA. 3) Write compelling content that urges visitors to take action. 4) Incorporate design elements such as images, videos, and forms that align with your message. 5) Test your page's usability and mobile responsiveness. 6) Use SEO best practices to help your page get found. 7) Publish your landing page and monitor its performance to make adjustments as needed.",
+      " website is an online platform or application designed to manage and integrate the various business processes of an organization. ERP systems are comprehensive software solutions that help organizations streamline their operations by consolidating various functions into a single, unified system. These functions typically include.",
+  },
+];
+
+export const FAQS_TH = [
+  {
+    title: "Landing Page คืออะไร?",
+    content:
+      " คือหน้าเว็บเพจที่ผู้ใช้งานอินเทอร์เน็ตถูกพาไปหลังจากคลิกที่ลิงก์หรือโฆษณา ซึ่งสามารถมาจากแหล่งต่าง ๆ เช่น โฆษณาออนไลน์, อีเมล, หรือผลการค้นหาในเสิร์ชเอ็นจิน หน้าที่สำคัญของ Landing Page คือการชักชวนหรือกระตุ้นให้ผู้เยี่ยมชมดำเนินการบางอย่าง โดยปกติจะมีการออกแบบเพื่อให้มีความชัดเจนและตรงประเด็น ซึ่งต่างจากหน้าเว็บไซต์ทั่วไปที่มักมีข้อมูลหลากหลาย",
   },
   {
-    title: "Why is a landing page important?",
+    title: "ERP คืออะไร?",
     content:
-      "Landing pages are crucial for any marketing strategy because they provide a targeted platform for converting visitors into leads or customers. Unlike general websites, landing pages focus the visitor's attention on a single offer, minimizing distractions and guiding them towards a specific action. This focused approach can significantly increase the effectiveness of your marketing campaigns, improve your ad performance, and enhance the overall user experience by providing them with the information or solution they were seeking.",
-  },
-  {
-    title: "Why choose our landing page boilerplate?",
-    content:
-      "Our landing page template is free, open-source, and powerful, making it ideal for various projects and marketing campaigns. It allows you to create a landing page in under an hour, simplifying the development process while also offering a high degree of customization and responsiveness.",
-  },
-  {
-    title: "What skills do I need to use this template?",
-    content:
-      "To use our landing page template, you only need basic web editing skills. The design of the template is intended to be easy for non-technical users to get started with, while also providing high customizability for experienced developers.",
-  },
-  {
-    title: "How do I get started with the landing page template?",
-    content:
-      "Getting started is very simple. Just download the source code from our GitHub repository, edit the text and images as needed, and then deploy it to your server.",
-  },
-  {
-    title: "Does the landing page template support responsive design?",
-    content:
-      "Yes, our landing page template supports responsive design, ensuring that your webpage displays perfectly on a variety of devices, whether desktop, tablet, or smartphone.",
-  },
-  {
-    title: "Can I use this template for a commercial project?",
-    content:
-      "Absolutely. Our template is open-source, and you can use it for any type of project, including commercial purposes. We encourage users to utilize this template to create and optimize their online projects.",
-  },
-  {
-    title: "Do you offer any customization services?",
-    content:
-      "We accept paid custom development of landing pages. Please contact us via email at weijunext@gmail.com or Twitter @weijunext.",
-  },
-  {
-    title: "Are there any restrictions on using this template?",
-    content:
-      "No. You are free to use and modify this template. At the same time, we encourage developers to submit PRs to help improve this landing page template together.",
-  },
-  {
-    title: "Does this template include SEO optimization features?",
-    content:
-      "Yes, our template includes basic SEO optimization features to help your webpage achieve better rankings in search engines.",
-  },
-  {
-    title: "What should I do if I encounter problems using the template?",
-    content:
-      "If you encounter any issues while using the template, please contact us via Twitter @weijunext.",
+      " เว็บไซต์เป็นแพลตฟอร์มออนไลน์หรือแอปพลิเคชันที่ออกแบบมาเพื่อจัดการและบูรณาการกระบวนการทางธุรกิจต่างๆ ขององค์กร ระบบ ERP เป็นโซลูชันซอฟต์แวร์ที่ครอบคลุมซึ่งช่วยให้องค์กรปรับกระบวนการทำงานให้มีประสิทธิภาพด้วยการรวมฟังก์ชันต่างๆ เข้าเป็นระบบเดียวที่เชื่อมโยงกัน โดยทั่วไปฟังก์ชันเหล่านี้จะรวมถึง",
   },
 ];
 
@@ -385,6 +348,7 @@ interface FAQSCollection {
 }
 export const ALL_FAQS: FAQSCollection = {
   FAQS_EN,
+  FAQS_TH,
   FAQS_ZH,
   FAQS_JA,
   FAQS_AR,

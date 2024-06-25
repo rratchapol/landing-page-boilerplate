@@ -1,45 +1,83 @@
 import { LucideIcon, MagnetIcon } from "lucide-react";
 import { IconType } from "react-icons";
 import { BsGithub } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa";
+import { FaCreditCard, FaHotjar, FaMagic, FaRegThumbsUp, FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
 import { MdCloudUpload } from "react-icons/md";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "Beautifully designed and easy to use",
+    content: "We focus on designing websites that are high quality, beautiful, easy to use and meet user needs.",
+    icon: FaMagic,
   },
   {
-    title: "Responsive Design",
+    title: "Responsive Web Design",
     content:
-      "Templates meticulously designed to ensure optimal display on any device.",
+      "The websites we build are designed to be versatile, ensuring that your customers can access information with ease.",
     icon: FaMobileScreenButton,
   },
   {
-    title: "Easy Customization",
+    title: "Modern website",
     content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+      "We use cutting-edge technology and design to develop your website, giving it a distinctive look and performance.",
+    icon: FaHotjar,
   },
   {
-    title: "SEO Optimized",
+    title: "Customizable services",
     content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
+      "We understand that every business has different needs, so we offer flexible and customizable services to meet your specific needs.",
     icon: MagnetIcon,
   },
   {
-    title: "One-Click Deployment",
+    title: "user support",
     content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+      "We are here to support and solve any problems, whether you have questions about the application or encounter a problem that requires assistance.",
+    icon: FaRegThumbsUp,
   },
   {
-    title: "Globalization Support",
+    title: "The price is friendly.",
     content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
+      "Negotiable Prices We offer friendly and cost-effective pricing to ensure you receive high-quality service at an affordable price.",
+    icon: FaCreditCard,
+  },
+];
+
+export const FEATURES_TH = [
+  {
+    title: "ออกแบบที่สวยงามและใช้งานง่าย",
+    content: "เรามุ่งเน้นการออกแบบที่ให้เว็บไซต์มีคุณภาพ ความสวยงามและยังใช้งานง่ายและตอบสนองความต้องการของผู้ใช้ .",
+    icon: FaMagic,
+  },
+  {
+    title: "รองรับ Responsive",
+    content:
+      "เว็บไซต์ที่เราสร้างถูกออกแบบมาให้รองรับการใช้งานได้หลากหลายแบบ  เพื่อให้แน่ใจว่าลูกค้าของคุณสามารถเข้าถึงข้อมูลได้อย่างสะดวกสบาย.",
+    icon: FaMobileScreenButton,
+  },
+  {
+    title: "website ทันสมัย",
+    content:
+      "เราใช้เทคโนโลยีและการออกแบบที่ทันสมัยในการพัฒนาเว็บไซต์ของคุณ เพื่อให้เว็บไซต์ของคุณมีรูปลักษณ์ที่โดดเด่น และมีประสิทธิภาพ.",
+    icon: FaHotjar,
+  },
+  {
+    title: "บริการที่ปรับแต่งได้",
+    content:
+      "เราเข้าใจว่าทุกธุรกิจมีความต้องการที่แตกต่างกัน เราจึงมีบริการที่ยืดหยุ่นและสามารถปรับแต่งได้ตามความต้องการเฉพาะของคุณ.",
+    icon: MagnetIcon,
+  },
+  {
+    title: "ซัพพอร์ตการใช้งาน",
+    content:
+      "เราพร้อมให้การสนับสนุนและแก้ไขปัญหาต่างๆ ไม่ว่าคุณจะมีคำถามเกี่ยวกับการใช้งาน หรือพบปัญหาที่ต้องการความช่วยเหลือ.",
+    icon: FaRegThumbsUp,
+  },
+  {
+    title: "ราคาเป็นกันเอง",
+    content:
+      "สามารถเสนอ ต่อรองราคาได้ เรามีการกำหนดราคาที่เป็นกันเองและคุ้มค่า เพื่อให้คุณได้รับบริการที่มีคุณภาพสูงในราคาที่สามารถรับได้.",
+    icon: FaCreditCard,
   },
 ];
 
@@ -218,6 +256,7 @@ interface FeaturesCollection {
 
 export const ALL_FEATURES: FeaturesCollection = {
   FEATURES_EN,
+  FEATURES_TH,
   FEATURES_ZH,
   FEATURES_JA,
   FEATURES_AR,

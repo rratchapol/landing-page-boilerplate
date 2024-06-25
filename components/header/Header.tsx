@@ -9,6 +9,7 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
 
+
 const links = [
   {
     label: "Features",
@@ -19,7 +20,7 @@ const links = [
     href: "#Pricing",
   },
   {
-    label: "Wall of Love",
+    label: "Product",
     href: "#WallOfLove",
   },
   {
@@ -48,7 +49,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              Landing Page
             </span>
           </Link>
         </div>

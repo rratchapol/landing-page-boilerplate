@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { TwitterX } from "@/components/social-icons/icons";
 import { siteConfig } from "@/config/site";
 import { WALL_OF_LOVE } from "@/config/wallOfLove";
 import Image from "next/image";
@@ -36,7 +35,7 @@ const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
         {WALL_OF_LOVE.map((testimonial, index) => (
           <div className="mb-4 z-0 break-inside-avoid-column" key={index}>
             <div className="border border-slate/10 rounded-lg p-4 flex flex-col items-start gap-3 h-fit">
-              <div className="flex items-start justify-between w-full">
+              {/* <div className="flex items-start justify-between w-full">
                 <div className="flex items-start gap-2">
                   <Image
                     src={testimonial.user.image}
@@ -59,10 +58,18 @@ const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
                 >
                   <TwitterX className="w-8 h-8" />
                 </Link>
+              </div> */}
+              <div className="flex items-start gap-2">
+                <p className="dark:text-zinc-200 text-[14px]">
+                  <Image
+                    src={testimonial.user.image}
+                    alt="maker"
+                    height={500}
+                    width={500}
+                    className="w-60 h-50  object-cover object-top"
+                  />
+                </p>
               </div>
-              <p className="dark:text-zinc-200 text-[14px]">
-                {testimonial.content}
-              </p>
             </div>
           </div>
         ))}

@@ -5,37 +5,70 @@ import { Tier, TiersEnum } from "@/types/pricing";
 export const TIERS_EN: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "Open-Source / Free",
-    price: "Free",
+    title: "Landing Page ",
+    price: "Starting at 500",
     href: siteConfig.openSourceURL || "#",
     description:
-      "Freely clone the landing page boilerplate from the GitHub repository.",
+      "A 1-page website with content or images that emphasize beauty.",
     features: [
-      "Free",
-      "Access to full code",
-      "Secondary development",
-      "MIT License",
+      "1 page",
+      "Add a photo",
+      "Add a video",
+      "Add a text",
     ],
-    buttonText: "Get started",
+    buttonText: "Contact us",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
   {
     key: TiersEnum.Customize,
-    title: "Customize",
+    title: "ERP",
     href: siteConfig.authors[0].twitter || "#",
-    description: "Pay to customize an exclusive landing page.",
-    price: "$188",
+    description: "It is a system used to manage resources within an organization to achieve maximum efficiency.",
+    price: "Starting at 5,000",
     features: [
-      "Access to full code",
-      "Secondary development",
-      "Exclusive style",
-      "One-on-one service",
-      "More exquisite pages",
+      "Back-end system, can edit data by yourself",
+      "Add/Delete data in the system",
+      "Store and manage your data in one place",
     ],
     buttonText: "Contact us",
-    buttonColor: "default",
-    buttonVariant: "flat",
+    buttonColor: "primary",
+    buttonVariant: "solid",
+  },
+];
+
+export const TIERS_TH: Array<Tier> = [
+  {
+    key: TiersEnum.Free,
+    title: "เว็บไซต์เเบบ 1 หน้า",
+    price: "เริ่มต้น 500",
+    href: siteConfig.openSourceURL || "#",
+    description:
+      "เว็บไซต์ 1 หน้า มีเนื้อหาหรือรูปใส่เน้นความสวยงาม",
+    features: [
+      "1 หน้า",
+      "ใส่รูป",
+      "ใส่ลิ้งค์วิดีโอ",
+      "ใส่ข้อความ",
+    ],
+    buttonText: "ติดต่องาน",
+    buttonColor: "primary",
+    buttonVariant: "solid",
+  },
+  {
+    key: TiersEnum.Customize,
+    title: "ERP",
+    href: siteConfig.authors[0].twitter || "#",
+    description: " เป็นระบบที่ใช้สำหรับการจัดการทรัพยากรภายในองค์กรเพื่อให้เกิดประสิทธิภาพสูงสุด",
+    price: "เริ่มต้น 5,000",
+    features: [
+      "ระบบหลังบ้าน แก้ไขข้อมูลเองได้",
+      "เพิ่ม ลบข้อมูลในระบบ",
+      "จัดเก็บและจัดการข้อมูลในที่เดียว",
+    ],
+    buttonText: "ติดต่องาน",
+    buttonColor: "primary",
+    buttonVariant: "solid",
   },
 ];
 
@@ -227,6 +260,7 @@ interface TiersCollection {
 
 export const ALL_TIERS: TiersCollection = {
   TIERS_EN,
+  TIERS_TH,
   TIERS_ZH,
   TIERS_JA,
   TIERS_AR,

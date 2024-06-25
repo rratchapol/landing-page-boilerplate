@@ -1,0 +1,40 @@
+{
+  "Hero": {
+    "title1": "บริการ",
+    "title2": "พัฒนาเว็บไซต์",
+    "title3": "ราคาถูก",
+    "description": "เรามุ่งมั่นที่จะสร้างสรรค์งานคุณภาพสูงและตรงตามความต้องการของลูกค้า เพื่อให้ลูกค้าได้รับประสบการณ์ที่ดีที่สุดจากบริการของเรา เราพร้อมที่จะทำงานร่วมกับลูกค้าในการออกแบบและพัฒนาเว็บไซต์ Landing Page และระบบ ERP ที่ตอบสนองต่อการใช้งานและเพิ่มประสิทธิภาพในการทำงานขององค์กร"
+  },
+  "SocialProof": {
+    "maker": "เว็บไซต์เพื่อคุณ"
+  },
+  "Feature": {
+    "title": "Features"
+  },
+  "Pricing": {
+    "title": "ราคา",
+    "title2": "ราคารับทำเว็บไซต์",
+    "description": "เลือกเพ็ตเกจที่คุณต้องการ สามารถบอกรายละเอียดเพิ่มเติมได้",
+    "doYouLike": "ติดต่โดยตรง",
+    "follow": "สอบถามราคา"
+  },
+  "WallOfLove": {
+    "title": "ผลงาน",
+    "description1": "ตัวอย่างเว็บไซต์ที่เราผลิตออกมา"
+  },
+  "FAQ": {
+    "title": "FAQs"
+  },
+  "CTA": {
+    "title": "Build Your Landing Page Now",
+    "description1": "Build",
+    "description2": "your landing page,",
+    "description3": "show",
+    "description4": "your product, and",
+    "description5": "start earning",
+    "description6": "!"
+  },
+  "CTAButton": {
+    "title": "ไลน์"
+  }
+}
